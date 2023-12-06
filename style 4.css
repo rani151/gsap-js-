@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    
+}
+html, body{
+    width: 100%;
+    height: 100%; 
+}
+
+ 
+ .page1{
+    width: 100%;
+    height: 100%;
+    background-color:black; 
+    padding:0 20px ;
+  
+ }
+  .nav{
+    width: 100%;
+    height: 60px;
+    /* background-color: blueviolet; */
+    border-bottom: 2px solid #dadada;
+    color: #fff;
+     
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+ } 
+ .nav h1 span{
+    font-size: 45px;
+    color: green;
+    font-weight: 400;
+    
+ }
+ .nav-part1{
+    display: flex; 
+    gap: 30px;
+    font-size: 15px;
+    font-weight: 400;
+ }
+ .nav-part2{
+   
+    display: flex; 
+    gap: 30px;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400; 
+    
+ }
+ .nav-part2 i{
+    font-size: 30px;
+   padding: 10px 20px;
+      
+ }
+
+ .container{
+    width: 100%;
+    height: 70%;
+    /* background-color: blue; */
+    display: flex;
+ }
+ .left{
+    width: 50%;
+    height: 100%;
+    color: #dadada;
+    padding: 100px 50px;
+    border-bottom: 2px solid #dadada;
+ }
+
+ .left h1{
+    font-size: 90px;
+ }
+
+ 
+ .left h1 span img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -40px;
+    border: 3px solid black;
+ }
+ .left h1 span img:nth-child(1){
+    margin-left: 0;
+ }
+ .right{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    
+ }
+ .right img{
+    padding: 100px 50px;
+    width: 90%;
+    height: 130%;
+    border-radius: 15px;
+ }
+  /*-----------------------------------------------  page 2 -----------------------------------------------------  */
+ .page2{
+    width: 100%;
+    height: 100%;
+    background-color: black; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+ }
+
+ .box{
+    height: 300px;
+    width: 400px;
+    border: 2px solid #dadada;
+    text-align:  center;
+     
+    padding: 30px;
+ }
+
+ .box h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color:white;
+ }
+ 
+ .box p{
+    font-size: 15px;
+    text-transform: lowercase;
+    font-weight: 300;
+    color: #dadada;
+
+ }

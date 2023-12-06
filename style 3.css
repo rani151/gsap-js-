@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Gilroy';
+    box-sizing: border-box;
+    
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.page1{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page3{
+    height: 100%;
+    width: 100%;
+    background-color:greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color:crimson; 
+}
